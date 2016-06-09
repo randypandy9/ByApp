@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.pandy.cooltravel.Register">
+    <!--first name-->
+    <TextView
+        android:text="@string/FirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+    <EditText
+        android:id="@+id/firstnametextbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+    />
+
+    <!--last name-->
+    <TextView
+        android:text="@string/LastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+    <EditText
+        android:id="@+id/lastnametextbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+    />
+
+    <!--age-->
+    <TextView
+        android:text="@string/Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:text="@string/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/Rusernametextbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:text="@string/passwordtag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/Rpasswordtextbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:id="@+id/Rregister"
+        />
+</LinearLayout>

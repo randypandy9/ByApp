@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">COOLTRAVEL</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="logintag">Log in</string>
+    <string name="username">Username</string>
+    <string name="passwordtag">Password</string>
+    <string name="register">Register</string>
+
+    <string name="title_activity_register">Register</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Age">Age</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="logout">Log Out</string>
+    <string name="firstnamedisplay">First Name</string>
+    <string name="lastnamedisplay">Last Name</string>
+    <string name="usernamedisplay">Username</string>
+    <string name="passworddisplay">Password</string>
+    <string name="agedisplay">Age</string>
+    <string name="title_activity_mainmenu">mainmenu</string>
+
+    <string name="maketrip">Create A Trip</string>
+    <string name="taketrip">Take A Trip</string>
+    <string name="createtriptitle">Creating A Trip</string>
+    <string name="taketriptitle">Taking A Trip</string>
+    <string name="vehicle">Vehicle Details</string>
+    <string name="myTrips">My Trips</string>
+    <string name="createdTrips">Created Trips</string>
+
+    <string name="origin">Origin</string>
+    <string name="dest">Destination</string>
+    <string name="price">Price</string>
+    <string name="seats">Seats</string>
+    <string name="seatsRemaining">Seats Remaining</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+
+    <string name="vehicletitle">My Vehicle Details</string>
+    <string name="make">Make</string>
+    <string name="model">Model</string>
+    <string name="plate">Plate</string>
+    <string name="saveVehicle">Save Vehicle</string>
+
+    <string name="saveNewProfile">Save</string>
+
+    <string name="book">Book Seat</string>
+    <string name="route">Show Route</string>
+
+    <string name="addtrip">Add Trip</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

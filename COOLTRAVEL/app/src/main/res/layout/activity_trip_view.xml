@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.pandy.cooltravel.TripView">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/taketriptitle"
+        android:textStyle="bold"
+        android:id="@+id/TakeTripTitle"/>
+
+    <!--Origin-->
+    <TextView
+        android:text="@string/origin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:id="@+id/origintxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--Destination-->
+    <TextView
+        android:text="@string/dest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:id="@+id/destinationtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--Price-->
+    <TextView
+        android:text="@string/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:id="@+id/pricetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <!--Seats-->
+    <TextView
+        android:text="@string/seats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:id="@+id/seatstxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <!--SeatsRemaining-->
+    <TextView
+        android:text="@string/seatsRemaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:id="@+id/seatsRemainingtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--Details-->
+    <TextView
+        android:text="@string/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:id="@+id/detailstxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--Details-->
+    <TextView
+        android:text="@string/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:id="@+id/datetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/route"
+        android:id="@+id/routebtn"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
